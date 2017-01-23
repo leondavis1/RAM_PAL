@@ -1,0 +1,14 @@
+  Como parte de este estudio , se le dio a la tarea de
+  resolver problemas de matemáticas en la forma " A + B + C =" , donde
+  A, B, y C son números enteros
+
+  Cuando ves a un problema de matemáticas , por favor escriba la respuesta
+  con el teclado y luego presione la tecla ENTER . puedes
+  utilizar la tecla RETROCESO si has cometido un error .
+
+  Ahora tendrá la oportunidad de practicar la tarea de matemáticas .
+  Considere esta sesión de práctica como una oportunidad para construir
+  velocidad sin sacrificar la precisión .
+
+  Por favor, deje que el asistente de investigación sabe cuando
+  han terminado de leer estas instrucciones

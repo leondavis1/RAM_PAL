@@ -1,0 +1,21 @@
+  En este experimento vas a estudiar las listas de
+  pares de palabras presentan en la pantalla. primero tú
+  verá una fila de X ( XXXXXXX ), entonces el par
+  se presentará una palabra a la vez. Ya Está
+  será de seis pares en cada lista.
+
+
+  Tras la presentación de las parejas que se
+  se mostrará varios problemas de matemáticas. Respuesta ellos como
+  rápida y precisa como sea posible.
+
+  Cuando haya completado estos problemas de matemáticas, que
+  se presentará con una serie de signos de interrogación
+  ( ?????? ) Y luego una palabra de la lista , ya sea
+  la primera o la segunda palabra, y les pidió que recordaran
+  la palabra juego de la pareja.  Por favor hable
+  su respuesta en el micrófono. Si no puedes
+  recordar la palabra , decir "paso".
+ 
+  Si usted tiene alguna pregunta acerca de estas instrucciones,
+  pedir al experimentador ahora.
