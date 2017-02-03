@@ -600,7 +600,7 @@ then delete the subject folder in:
 
 class PALExperimentRunner:
 
-    def __init__(self, fr_experiment, clock, log, mathlog, video, audio, callbacks):
+    def __init__(self, fr_experiment, clock, log, mathlog, video, audio):
         self.fr_experiment = fr_experiment
         self.config = fr_experiment.config
         self.clock = clock
@@ -608,7 +608,6 @@ class PALExperimentRunner:
         self.mathlog = mathlog
         self.video = video
         self.audio = audio
-        self.callbacks = callbacks
         self._on_screen = True
         self.start_beep = CustomBeep(self.config.startBeepFreq,
                              self.config.startBeepDur,
@@ -1168,12 +1167,12 @@ def run():
     config = exp.getConfig()
 
     if exp.restoreState():
-        session_num = exp.restoreState().sessionNum
+        session = exp.restoreState().sessionNum
     else:
-        session_num = 0
+        session = 0
 
     # Have to set session before creating tracks
-    exp.setSession(session_num)
+    exp.setSession(session)
     subject = exp.getOptions().get('subject')
 
     # Set up tracks
@@ -1198,8 +1197,7 @@ def run():
                                             log,
                                             mathlog,
                                             video,
-                                            audio,
-                                            callbacks)
+                                            audio)
 
     if experiment_runner.should_skip_session(state):
         return
