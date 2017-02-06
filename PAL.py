@@ -56,7 +56,6 @@
 from extendedPyepl import *
 from pyepl import timing
 
-# other modules
 import codecs  # FOR READING UNICODE
 import random
 import os
@@ -64,7 +63,7 @@ import sys
 import shutil
 import unicodedata
 import playIntro
-from RAMControl import RAMControl
+from RAMControl import RAMControl, logger
 from messages import WordMessage
 
 ram_control = RAMControl.instance()
@@ -997,6 +996,8 @@ class PALExperimentRunner:
         Performs a resynchronization (christian's algorithm)
         (to be run before each list)
         """
+        logger.error("Resync currently disabled")
+        return
         if self.config.control_pc:
             if show_syncing:
                 ram_control.align_clocks(callback=self.resync_callback)
