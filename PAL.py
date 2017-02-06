@@ -685,7 +685,7 @@ class PALExperimentRunner:
             self.clock.delay(delay, jitter)
             self.clock.wait()
 
-    def _send_event(self, *args, **kwargs):
+    def _send_event(self, type, *args, **kwargs):
         """
         Sends an arbitrary event
         :param args: Inputs to RAMControl.sendEvent()
