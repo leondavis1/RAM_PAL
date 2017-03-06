@@ -62,7 +62,7 @@ import unicodedata
 import playIntro
 
 from ramcontrol.extendedPyepl import *
-from ramcontrol.RAMControl import RAMControl, logger
+from ramcontrol.control import RAMControl, logger
 from ramcontrol.messages import WordMessage
 
 ram_control = RAMControl.instance()
