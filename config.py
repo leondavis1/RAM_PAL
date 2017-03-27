@@ -53,7 +53,7 @@ wp = 'txt_%s/RAM_wordpool.txt' % LANGUAGE
 noAcc_wp = 'RAM_wordpool_noAcc.txt'
 
 # Introductory movie
-introMovie = 'video_%s/instructions_new.mpg' % LANGUAGE
+introMovie = 'video_%s/instructions.mpg' % LANGUAGE
 introAudio = 'video_%s/instructions.wav' % LANGUAGE
 
 
